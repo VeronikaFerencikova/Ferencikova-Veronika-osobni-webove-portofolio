@@ -1,0 +1,187 @@
+html {
+    background: #4d4456;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #414042;
+    background: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    min-width: 960px;
+}
+
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #c90899;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+
+#zahlavi {
+    height: 40px;
+    margin: 20px 20px;
+}
+#zahlavi h1{
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+
+#zahlavi h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a{
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover, 
+.aktivni a{
+    border-bottom:3px solid #EF6534;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+
+article header {
+    height: 80px;
+}
+
+article h1,
+article h2 {
+    padding: 10px 0;
+}
+
+
+article h1 {
+    margin: 0;
+    text-align: center;
+    text-shadow: 3px 1px 5px #9d7272;
+    text-transform: uppercase;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.1em;
+    border-bottom: 4px solid #EF6534;
+    color: #020202
+    
+}
+
+article section h2 {
+    font-size: 1.8em;
+    color: #5549c1;
+}
+
+article section p {
+    line-height: 1.5em;
+    margin-bottom: 1.1em;
+}
+
+article section a{
+    color: orangered;
+}
+
+.obrazek {
+    float: right;
+    width: 300px;
+    padding-left: 50px;
+    filter: grayscale(1);
+    
+}
+
+.cistic {
+    clear: both;
+}
+
+.reference-tlacitko {
+    background: #5549c1;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+.kontakt-tlacitko {
+    background: #5e8f50;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+    filter: brightness(115%) contrast(85%);
+    border: 0;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background: #4d4456;
+    padding: 40px 0 0 0;
+    clip-path: polygon(0 30px,100% 0, 100% 105%, 0 105%);
+}
+
+.email,
+.telefon {
+    font: left;
+}
+
+#dovednosti td{
+    width: 40%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid grey;
+}
+
+#dovednosti {
+    border-collapse: collapse;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+#reference img{
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #959090;
+    margin-right: 6px;
+}
+    
+
